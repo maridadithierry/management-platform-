@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Reflection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="title"></h1>
+    <p id="greeting"></p>
+
+    <div class="language-switcher">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('fr')">Français</button>
+    </div>
+
+    <form>
+      <label id="q1" for="answer1"></label>
+      <textarea id="answer1"></textarea>
+
+      <label id="q2" for="answer2"></label>
+      <textarea id="answer2"></textarea>
+
+      <label id="q3" for="answer3"></label>
+      <textarea id="answer3"></textarea>
+    </form>
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+SELECT * FROM student;
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
